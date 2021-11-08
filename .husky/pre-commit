@@ -3,7 +3,7 @@
 
 # Check Prettier standards
 
-yarn test && git add .   ||
+yarn test && yarn lint --fix && git add .   ||
 (
     echo '❌👷🔨❌ Better Call your mentor... Because your test failed ❌👷🔨❌
             next test failed: View the errors above to see why. 
